@@ -1,0 +1,117 @@
+[2023-07-03 13:13:45,273]^;WARNING^;224^;_internal.py^;_log()^; * Debugger is active!
+[2023-07-03 13:13:45,302]^;INFO^;224^;_internal.py^;_log()^; * Debugger PIN: 866-997-708
+[2023-07-03 13:13:59,561]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [03/Jul/2023 13:13:59] "GET / HTTP/1.1" 200 -
+[2023-07-03 13:14:00,096]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [03/Jul/2023 13:14:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2023-07-03 13:14:05,188]^;INFO^;232^;__init__.py^;get_trainig_pipeline_config()^;Configuaraion: Training pipeline configured
+[2023-07-03 13:14:05,188]^;INFO^;19^;__init__.py^;__init__()^;Configuaraion initiated
+[2023-07-03 13:14:05,330]^;INFO^;190^;__init__.py^;save_experiment()^;Experiment report saved in dataframe
+[2023-07-03 13:14:05,377]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [03/Jul/2023 13:14:05] "GET /train HTTP/1.1" 200 -
+[2023-07-03 13:14:05,377]^;INFO^;60^;__init__.py^;get_data_ingestion_config()^;Configuaraion: Data ingestion_configured
+[2023-07-03 13:14:07,371]^;INFO^;108^;ingestion.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2023-07-03 13:14:07,371]^;INFO^;94^;__init__.py^;get_data_validation_config()^;Configuaraion: Data validation configured
+[2023-07-03 13:14:10,399]^;INFO^;144^;validation.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Valdaition log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2023-07-03 13:14:10,400]^;INFO^;138^;__init__.py^;get_data_transformation_config()^;Configuaraion: Transformation configured
+[2023-07-03 13:14:10,502]^;INFO^;42^;transformation.py^;get_data_transformer_object()^;Preprocessing object Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())]) configured
+[2023-07-03 13:14:10,759]^;INFO^;116^;transformation.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Transformation log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2023-07-03 13:14:10,759]^;INFO^;175^;__init__.py^;get_model_trainer_config()^;Configuaraion: Modeltrainign configured
+[2023-07-03 13:14:11,589]^;INFO^;232^;__init__.py^;get_trainig_pipeline_config()^;Configuaraion: Training pipeline configured
+[2023-07-03 13:14:11,589]^;INFO^;19^;__init__.py^;__init__()^;Configuaraion initiated
+[2023-07-03 13:14:11,589]^;INFO^;60^;__init__.py^;get_data_ingestion_config()^;Configuaraion: Data ingestion_configured
+[2023-07-03 13:14:11,590]^;INFO^;94^;__init__.py^;get_data_validation_config()^;Configuaraion: Data validation configured
+[2023-07-03 13:14:11,590]^;INFO^;138^;__init__.py^;get_data_transformation_config()^;Configuaraion: Transformation configured
+[2023-07-03 13:14:11,590]^;INFO^;175^;__init__.py^;get_model_trainer_config()^;Configuaraion: Modeltrainign configured
+[2023-07-03 13:14:13,514]^;INFO^;172^;model_factory.py^;execute_grid_search_operation()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> f'Training LogisticRegression completed.' <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2023-07-03 13:14:15,668]^;INFO^;42^;transformation.py^;get_data_transformer_object()^;Preprocessing object Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())]) configured
+[2023-07-03 13:14:16,041]^;INFO^;42^;transformation.py^;get_data_transformer_object()^;Preprocessing object Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())]) configured
+[2023-07-03 13:14:16,457]^;INFO^;108^;ingestion.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2023-07-03 13:14:16,457]^;INFO^;144^;validation.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Valdaition log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2023-07-03 13:14:16,457]^;INFO^;116^;transformation.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Transformation log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2023-07-03 13:14:16,460]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [03/Jul/2023 13:14:16] "GET /predict HTTP/1.1" 200 -
+[2023-07-03 13:14:40,891]^;INFO^;172^;model_factory.py^;execute_grid_search_operation()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> f'Training RandomForestClassifier completed.' <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2023-07-03 13:14:40,896]^;INFO^;43^;training.py^;initiate_model_trainer()^;Best model found on training data: GridSearchedBestModel(model_serial_number='module_1', model=RandomForestClassifier(min_samples_leaf=3), best_model=RandomForestClassifier(min_samples_leaf=6), best_parameters={'min_samples_leaf': 6}, best_score=0.8184285714285714)
+[2023-07-03 13:14:41,531]^;INFO^;76^;training.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Model trainer log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[2023-07-03 13:14:41,531]^;INFO^;196^;__init__.py^;get_model_evaluation_config()^;Configuaraion: Model Evaluated configured
+[2023-07-03 13:14:41,719]^;INFO^;141^;evaluation.py^;__del__()^;====================Model Evaluation log completed.==================== 
+[2023-07-03 13:14:41,719]^;INFO^;216^;__init__.py^;get_model_pusher_config()^;Configuaraion: Model pusher configured
+[2023-07-03 13:14:41,724]^;INFO^;47^;model_pusher.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Model Pusher log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[2023-07-03 13:14:41,724]^;INFO^;142^;__init__.py^;run_pipeline()^;Model pusher: ModelPusherArtifact(is_model_pusher=True, export_model_file_path='E:\\iNeuron Internship projects\\Credit_Card_defaul_prediction\\saved_models\\20230703131441\\model.pkl')
+[2023-07-03 13:14:41,724]^;INFO^;145^;__init__.py^;run_pipeline()^;Pipeline completed.
+[2023-07-03 13:14:41,827]^;INFO^;190^;__init__.py^;save_experiment()^;Experiment report saved in dataframe
+[2023-07-03 13:14:41,831]^;INFO^;172^;__init__.py^;run()^;Pipeline run function called inside run()
+[2023-07-03 13:16:01,240]^;INFO^;232^;__init__.py^;get_trainig_pipeline_config()^;Configuaraion: Training pipeline configured
+[2023-07-03 13:16:01,241]^;INFO^;19^;__init__.py^;__init__()^;Configuaraion initiated
+[2023-07-03 13:16:01,241]^;INFO^;60^;__init__.py^;get_data_ingestion_config()^;Configuaraion: Data ingestion_configured
+[2023-07-03 13:16:01,241]^;INFO^;94^;__init__.py^;get_data_validation_config()^;Configuaraion: Data validation configured
+[2023-07-03 13:16:01,241]^;INFO^;138^;__init__.py^;get_data_transformation_config()^;Configuaraion: Transformation configured
+[2023-07-03 13:16:01,241]^;INFO^;175^;__init__.py^;get_model_trainer_config()^;Configuaraion: Modeltrainign configured
+[2023-07-03 13:16:04,543]^;INFO^;42^;transformation.py^;get_data_transformer_object()^;Preprocessing object Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())]) configured
+[2023-07-03 13:16:04,850]^;INFO^;42^;transformation.py^;get_data_transformer_object()^;Preprocessing object Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())]) configured
+[2023-07-03 13:16:05,442]^;INFO^;108^;ingestion.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2023-07-03 13:16:05,442]^;INFO^;144^;validation.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Valdaition log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2023-07-03 13:16:05,442]^;INFO^;116^;transformation.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Transformation log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2023-07-03 13:16:05,444]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [03/Jul/2023 13:16:05] "POST /predict HTTP/1.1" 200 -
+[2023-07-03 13:16:25,020]^;INFO^;232^;__init__.py^;get_trainig_pipeline_config()^;Configuaraion: Training pipeline configured
+[2023-07-03 13:16:25,020]^;INFO^;19^;__init__.py^;__init__()^;Configuaraion initiated
+[2023-07-03 13:16:25,026]^;INFO^;190^;__init__.py^;save_experiment()^;Experiment report saved in dataframe
+[2023-07-03 13:16:25,028]^;INFO^;60^;__init__.py^;get_data_ingestion_config()^;Configuaraion: Data ingestion_configured
+[2023-07-03 13:16:25,109]^;INFO^;211^;__init__.py^;get_experiments_status()^;Experiment history saved and called
+[2023-07-03 13:16:25,119]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [03/Jul/2023 13:16:25] "GET /train HTTP/1.1" 200 -
+[2023-07-03 13:16:26,950]^;INFO^;108^;ingestion.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2023-07-03 13:16:26,950]^;INFO^;94^;__init__.py^;get_data_validation_config()^;Configuaraion: Data validation configured
+[2023-07-03 13:16:28,912]^;INFO^;144^;validation.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Valdaition log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2023-07-03 13:16:28,912]^;INFO^;138^;__init__.py^;get_data_transformation_config()^;Configuaraion: Transformation configured
+[2023-07-03 13:16:28,914]^;INFO^;42^;transformation.py^;get_data_transformer_object()^;Preprocessing object Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())]) configured
+[2023-07-03 13:16:29,365]^;INFO^;116^;transformation.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Transformation log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2023-07-03 13:16:29,366]^;INFO^;175^;__init__.py^;get_model_trainer_config()^;Configuaraion: Modeltrainign configured
+[2023-07-03 13:16:30,070]^;INFO^;172^;model_factory.py^;execute_grid_search_operation()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> f'Training LogisticRegression completed.' <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2023-07-03 13:16:31,068]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [03/Jul/2023 13:16:31] "GET /update_model_config HTTP/1.1" 200 -
+[2023-07-03 13:16:37,929]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [03/Jul/2023 13:16:37] "GET /saved_models HTTP/1.1" 200 -
+[2023-07-03 13:16:40,829]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [03/Jul/2023 13:16:40] "GET /artifact HTTP/1.1" 200 -
+[2023-07-03 13:16:43,111]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [03/Jul/2023 13:16:43] "GET /artifact/project/artifact HTTP/1.1" 200 -
+[2023-07-03 13:16:45,153]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [03/Jul/2023 13:16:45] "GET /artifact/project/artifact/data_ingestion HTTP/1.1" 200 -
+[2023-07-03 13:16:46,191]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [03/Jul/2023 13:16:46] "GET /artifact/project/artifact/data_ingestion/2023-07-03-13-13-43 HTTP/1.1" 200 -
+[2023-07-03 13:16:48,845]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [03/Jul/2023 13:16:48] "GET /artifact/project/artifact/data_ingestion/2023-07-03-13-13-43/ingested_data HTTP/1.1" 200 -
+[2023-07-03 13:16:50,658]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [03/Jul/2023 13:16:50] "GET /artifact/project/artifact/data_ingestion/2023-07-03-13-13-43/ingested_data/test HTTP/1.1" 200 -
+[2023-07-03 13:16:53,502]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [03/Jul/2023 13:16:53] "GET /logs HTTP/1.1" 200 -
+[2023-07-03 13:16:55,531]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [03/Jul/2023 13:16:55] "[33mGET /logs/logs_project/log_2023-07-03-13-13-43.logs HTTP/1.1[0m" 404 -
+[2023-07-03 13:17:01,521]^;INFO^;172^;model_factory.py^;execute_grid_search_operation()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> f'Training RandomForestClassifier completed.' <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2023-07-03 13:17:01,528]^;INFO^;43^;training.py^;initiate_model_trainer()^;Best model found on training data: GridSearchedBestModel(model_serial_number='module_1', model=RandomForestClassifier(min_samples_leaf=3), best_model=RandomForestClassifier(min_samples_leaf=6), best_parameters={'min_samples_leaf': 6}, best_score=0.8188571428571428)
+[2023-07-03 13:17:02,492]^;INFO^;76^;training.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Model trainer log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[2023-07-03 13:17:02,493]^;INFO^;196^;__init__.py^;get_model_evaluation_config()^;Configuaraion: Model Evaluated configured
+[2023-07-03 13:17:02,672]^;INFO^;141^;evaluation.py^;__del__()^;====================Model Evaluation log completed.==================== 
+[2023-07-03 13:17:02,672]^;INFO^;216^;__init__.py^;get_model_pusher_config()^;Configuaraion: Model pusher configured
+[2023-07-03 13:17:02,677]^;INFO^;47^;model_pusher.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Model Pusher log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[2023-07-03 13:17:02,677]^;INFO^;142^;__init__.py^;run_pipeline()^;Model pusher: ModelPusherArtifact(is_model_pusher=True, export_model_file_path='E:\\iNeuron Internship projects\\Credit_Card_defaul_prediction\\saved_models\\20230703131702\\model.pkl')
+[2023-07-03 13:17:02,677]^;INFO^;145^;__init__.py^;run_pipeline()^;Pipeline completed.
+[2023-07-03 13:17:02,680]^;INFO^;190^;__init__.py^;save_experiment()^;Experiment report saved in dataframe
+[2023-07-03 13:17:02,688]^;INFO^;172^;__init__.py^;run()^;Pipeline run function called inside run()
