@@ -16,7 +16,6 @@ import os, json, pandas as pd
 
 app = Flask(__name__)
 
-
 LOG_FOLDER_NAME = "logs_project"
 PIPELINE_FOLDER_NAME="project"
 SAVED_MODELS_DIR_NAME="saved_models"

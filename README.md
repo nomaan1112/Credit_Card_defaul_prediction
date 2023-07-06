@@ -97,7 +97,7 @@ pip install ipykernel
 - get repo - MLops_classifcation
 - heroku app - ml-classify
 - local dir - MLops_classifcation
-- Author - Keshav
+- Author - Nomaan
 - Sector - Banking
 - Use case - Default of Credit Card clients of Bank
 - Datasets - archive.ics.uci.edu/ml/datasets
